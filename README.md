@@ -1,6 +1,3 @@
----
-lang: en-us
----
 # pyem2a - Emoji to ASCII art (python)
 
 This python script is inspired from [em2a](https://github.com/zmwangx/em2a) by [zmwangx](https://github.com/zmwangx).
