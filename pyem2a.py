@@ -14,7 +14,7 @@ emojiStrs = []
 def checkArguments(args):
   global colorFlag
   if args == [] or args[0] == '-h' or args[0] == '--help' :
-    print('''Usage: em2a <string> [<string> ...]\n\nEach string can contain zero or more raw UTF-8 emojis or :alias:-styled emoji escape sequences.\nOptional the argument --color can be used to get colored emojis''')
+    print('''Usage: pyem2a <string> [<string> ...]\n\nEach string can contain zero or more raw UTF-8 emojis or :alias:-styled emoji escape sequences.\nOptional the argument --color can be used to get colored emojis''')
     sys.exit()
   if '--color' in args:
     colorFlag = True
