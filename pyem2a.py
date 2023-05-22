@@ -57,9 +57,9 @@ def createImageFolder():
 
 def emojis2Ascii():
   if colorFlag:
-    command = f'jp2a --background=light --colors --size=80x30 {fileName}'
+    command = f'jp2a --background=light --colors --size=80x38 {fileName}'
   else:
-    command = f'jp2a --background=light --size=80x30 {fileName}'
+    command = f'jp2a --background=light --size=80x38 {fileName}'
   if mirrorFlag:
     command += ' -x'
   result = os.popen(command)
