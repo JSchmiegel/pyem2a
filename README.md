@@ -13,6 +13,8 @@ The following packages need to be installed
 
 Also, with the argument `--color` can the art be generated with color.
 
+With the argument `--mirror` can the resulting ascii emoji mirrored.
+
 ## Examples
 ![./assets/demo1.gif](./assets/demo1.gif)
 ![./assets/demo2.gif](./assets/demo2.gif)
